@@ -1,0 +1,14 @@
+<?xml version ="1.0" encoding ="utf-8"?><!--  Learn More about how to use App Actions: https://developer.android.com/guide/actions/index.html -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/updateVehicle"
+    android:alphabeticShortcut="a"
+    android:numericShortcut="1"
+    android:title="Update"/>
+
+    <!--<item
+        android:id="@+id/deleteVehicle"
+        android:alphabeticShortcut="a"
+        android:numericShortcut="1"
+        android:title="Delete"/>-->
+</menu>

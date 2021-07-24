@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsertActivity">
+
+        <TextView
+            android:id="@+id/operationView"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="98dp"
+            android:layout_marginTop="14dp"
+            android:text="New Vehicle"
+            android:textAlignment="textStart"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="383dp"
+            android:layout_height="597dp"
+            android:layout_above="@+id/homeButton"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="62dp"
+            android:layout_marginBottom="26dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/makeTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Make"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/makeEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="Name"
+                            android:inputType="textPersonName" />
+
+                        <TextView
+                            android:id="@+id/modelTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Model"
+                            android:textSize="24sp" />
+
+                        <EditText
+                            android:id="@+id/modelEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="Model"
+                            android:inputType="textPersonName" />
+
+                        <TextView
+                            android:id="@+id/yearTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Year"
+                            android:textSize="24sp" />
+
+                        <EditText
+                            android:id="@+id/yearEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="Year"
+                            android:inputType="number" />
+
+                        <TextView
+                            android:id="@+id/priceTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Price"
+                            android:textSize="24sp" />
+
+                        <EditText
+                            android:id="@+id/priceEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="Price"
+                            android:inputType="number" />
+
+                        <TextView
+                            android:id="@+id/license_numberTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="License Number"
+                            android:textSize="24sp" />
+
+                        <EditText
+                            android:id="@+id/license_numberEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="License Number"
+                            android:inputType="textPersonName" />
+
+                        <TextView
+                            android:id="@+id/colourTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Colour"
+                            android:textSize="24sp" />
+
+                        <EditText
+                            android:id="@+id/colourEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="Colour"
+                            android:inputType="textPersonName" />
+
+                        <TextView
+                            android:id="@+id/number_doorsTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Number of Doors"
+                            android:textSize="24sp" />
+
+                        <EditText
+                            android:id="@+id/number_doorsEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="Number Of Doors"
+                            android:inputType="number" />
+
+                        <TextView
+                            android:id="@+id/transmissionTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Transmission"
+                            android:textSize="24sp" />
+
+                        <EditText
+                            android:id="@+id/transmissionEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="Transmission"
+                            android:inputType="textPersonName" />
+
+                        <TextView
+                            android:id="@+id/mileageTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Mileage"
+                            android:textSize="24sp" />
+
+                        <EditText
+                            android:id="@+id/mileageEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="Mileage"
+                            android:inputType="number" />
+
+                        <TextView
+                            android:id="@+id/fuel_typeTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fuel Type"
+                            android:textSize="24sp" />
+
+                        <EditText
+                            android:id="@+id/fuel_typeEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="Fuel Type"
+                            android:inputType="textPersonName" />
+
+                        <TextView
+                            android:id="@+id/engine_sizeTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Engine Size"
+                            android:textSize="24sp" />
+
+                        <EditText
+                            android:id="@+id/engine_sizeEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="Engine Size"
+                            android:inputType="number" />
+
+                        <TextView
+                            android:id="@+id/body_styleTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Body Style"
+                            android:textSize="24sp" />
+
+                        <EditText
+                            android:id="@+id/body_styleEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="Body Style"
+                            android:inputType="textPersonName" />
+
+                        <TextView
+                            android:id="@+id/conditionTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Condition"
+                            android:textSize="24sp" />
+
+                        <EditText
+                            android:id="@+id/conditionEditView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="Condition"
+                            android:inputType="textPersonName" />
+
+                        <TextView
+                            android:id="@+id/notesTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Notes"
+                            android:textSize="24sp" />
+
+                        <EditText
+                            android:id="@+id/notesEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="Notes"
+                            android:inputType="textPersonName" />
+
+                        <Button
+                            android:id="@+id/submitButton"
+                            android:layout_width="163dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="103dp"
+                            android:layout_marginBottom="42dp"
+                            android:text="Submit" />
+
+                </LinearLayout>
+
+        </ScrollView>
+
+
+        <ImageButton
+            android:id="@+id/homeButton"
+            android:layout_width="208dp"
+            android:layout_height="47dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
+            app:srcCompat="@drawable/home_not_selected" />
+
+        <ImageButton
+            android:id="@+id/addButton"
+            android:layout_width="208dp"
+            android:layout_height="47dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-5dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/homeButton"
+            app:srcCompat="@drawable/add_selected" />
+
+</RelativeLayout>

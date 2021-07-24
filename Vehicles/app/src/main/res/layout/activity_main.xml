@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/addButton"
+            android:layout_width="208dp"
+            android:layout_height="47dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="203dp"
+            android:layout_marginBottom="0dp"
+            app:srcCompat="@drawable/add_not_selected" />
+
+        <ListView
+            android:id="@+id/vehiclesList"
+            android:layout_width="match_parent"
+            android:layout_height="678dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="53dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+        </ListView>
+
+        <ImageButton
+            android:id="@+id/homeButton"
+            android:layout_width="208dp"
+            android:layout_height="47dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
+            app:srcCompat="@drawable/home_selected" />
+
+    </RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>
